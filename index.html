@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSS's WEB</title>
+  <meta name="description" 
+  content="We are 'Dream Start Scholarship' to help you start your dream" >
+  <meta name="author" content="SSURI">
+
+  <link rel="icon" type="image.png" href="imgs/DSS.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+
+  <script src="https://kit.fontawesome.com/759bfd028a.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <button class="upBtn">
+    <i class="fa-solid fa-circle-arrow-up"></i>
+  </button>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="fa-brands fa-dochub"></i>
+      <a href="#" target="_blank">DSS</a>
+    </div>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item"data-link="#p2e">P2E</li>
+        <li class="navbar__menu__item"data-link="#invest">Invest</li>
+        <li class="navbar__menu__item"data-link="#shop">Shop</li>
+        <li class="navbar__menu__item"data-link="#contact">Contact</li>
+      </ul>
+
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+  </nav>
+  <section id="home">
+    <div class="home__container">
+      <img src="imgs/DSSMannager.png" 
+      alt="DSS Manager" class="home__avatar">
+      <h1 class="home__title"> Hello! 
+        <br>We are DSS</h1>
+      <h2 class="home__description">Scholar Manager</h2>
+      <button class="home__contact" data-link="#contact">Contact Us</button>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="section__container">
+      <h1>About Us</h1>
+      <p>We are <strong>'Dream Start Scholarship'</strong>
+        <br>who want to walk the future with you.</p>
+      <div class="about__nows">
+        <div class="now">
+          <div class="now__icon">
+            <img src="imgs/P2E__.png" alt="P2E" class="i">
+            <h2 class="now__title">P2E</h2>
+            <div class="now__description"> We offer opportunities to those 
+              who want to make money while playing games.
+            </div>
+            <div class="now__description__change">Schorlarship <a href="#" target="_blank">inquiry</a> 
+            </div>
+          </div>
+        </div>
+  
+        <div class="now">
+          <div class="now__icon">
+            <img src="imgs/invest.png" alt="Invest" class="i">
+            <h2 class="now__title">Invest</h2>
+            <div class="now__description"> We offer opportunities for those   
+              who want to invest in small amounts.
+            </div>
+              <div class="now__description__change"> <strong>Coming Soon</strong> 
+            </div>
+          </div>
+        </div>
+  
+        <div class="now">
+          <div class="now__icon">
+            <i class="fa-solid fa-house"></i>   
+            <h2 class="now__title">WEB</h2>
+            <div class="now__description"> We want our scholar to have a pleasant scholarship life.
+            </div>
+            <div class="now__description__change"> Let's Start 
+            </div>
+          </div>
+        </div>  
+      </div>
+  
+      <h2>Plans</h2>
+      <p> This is our short-term goal.</p>
+      
+      <div class="about__plans">
+        <div class="plan">
+          <img src="imgs/logo.png" alt="profile" class="plan__logo">
+          <div class="plan__description">
+            <p class="plan__name">Profile Page</p>
+            <p class="plan__data">In April</p>
+          </div>
+        </div>
+        <div class="plan">
+          <img src="imgs/logo.png" alt="governance" class="plan__logo">
+          <div class="plan__description">
+            <p class="plan__name">Community Governance</p>
+            <p class="plan__data">In May</p>
+          </div>
+        </div>
+        <div class="plan">
+          <img src="imgs/logo.png" alt="Point" class="plan__logo">
+          <div class="plan__description">
+            <p class="plan__name">Point Shop</p>
+            <p class="plan__data">In May</p>
+          </div>
+        </div>  
+      </div>
+    </div>
+    
+  </section>
+
+  <section id="p2e" class="section">
+    <div class="section__container">
+      <h1>P2E</h1>
+      <h2>Scholarship </h2>
+      <p>These games are scholarships we run. Scholarship <a href="#" target="_blank">inquiry</a></p> 
+      
+      <div class="p2e__categories">
+        <button class="p2e__category__btn selected" data-filter="axie">
+          <img src="imgs/projects/axie_logo.png" alt="axie">
+        </button>
+        <button class="p2e__category__btn" data-filter="elpis">
+          <img src="imgs/projects/Elpisbattle_logo.png" alt="elpis">
+        </button>
+        <button class="p2e__category__btn" data-filter="bigtime">
+          <img src="imgs/projects/bigtime.png" alt="bigtime">
+        </button>
+      </div>
+      
+      <div class="reinvestmentsets">       
+        <div class="reinvestmentset" data-type="axie">
+          <h3 class="reinvestmentset__title">reinvestment rate 50%</h3>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>New Scholar</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axie Upgrade</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axs Staking</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>DSS Point</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment__link">
+            <span>Medium </span>
+            <a href="https://discord.gg/dnSxbCYJHf" target="_blank">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="reinvestmentset invisible" data-type="elpis">
+          <h3 class="reinvestmentset__title">reinvestment rate 50%</h3>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>New Scholar</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axie Upgrade</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axs Staking</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>DSS Point</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment__link">
+            <span>Medium </span>
+            <a href="https://discord.gg/dnSxbCYJHf" target="_blank">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="reinvestmentset invisible" data-type="bigtime">
+          <h3 class="reinvestmentset__title">reinvestment rate 50%</h3>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>New Scholar</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axie Upgrade</span>
+              <span>20%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(20% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>Axs Staking</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment">
+            <div class="reinvestment__description">
+              <span>DSS Point</span>
+              <span>5%</span>
+            </div>
+            <div class="reinvestment__bar">
+              <div class="reinvestment__value" style="width: calc(5% * 2);"></div>
+            </div>
+          </div>
+          <div class="reinvestment__link">
+            <span>Medium </span>
+            <a href="https://discord.gg/dnSxbCYJHf" target="_blank">
+              <i class="fa-brands fa-medium"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Invest -->
+  <section id="invest" class="section">
+    <div class="section__container">
+      <h1>Invest</h1>
+      <h3>Projects</h3>
+      <div class="invest__categories">
+        <button class="category__btn selected" data-filter="*">All<span class="category__count">3</span></button>
+        <button class="category__btn"data-filter="p2e">P2E<span class="category__count">1</span></button>
+        <button class="category__btn"data-filter="nft">NFT<span class="category__count">1</span></button>
+        <button class="category__btn"data-filter="other">Other<span class="category__count">1</span></button>
+      </div>
+  
+    <div class="invest__projects">
+        <a href="#" target="_blank" class="project" data-type="p2e">
+          <img src="imgs/projects/axs_logo.png" alt="AXS" class="project__axs">
+          <div class="project__discription">
+            <div class="poroject__description">
+              <h3>AXS Staking</h3>
+              <span>Use 'DSS'points to purchase AXS and proceed with staking.
+              <br>Technology implementation in May</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank" class="project"data-type="nft">
+          <img src="imgs/projects/loading.gif" alt="Coming Soon" class="project__img">
+          <div class="project__discription">
+            <div class="poroject__description">
+              <h3>NFT Invest</h3>
+              <span>Comming Soon</span>
+            </div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank" class="project"data-type="other">
+          <img src="imgs/projects/loading.gif" alt="Coming Soon" class="project__img">
+          <div class="project__discription">
+            <div class="poroject__description">
+              <h3>Suggest</h3>
+              <span>Comming Soon</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="shop" class="section">
+    <div class="section__container">
+      <h1>DSS Shop</h1>
+      <h2>product list</h2>
+    </div>
+    <div class="shop__product">
+      <a href="#" target="_blank" class="product__img">
+        <img src="imgs/logo.png" alt="Coming Soon">
+        <div class="product__description">
+          <h3>Preparing</h3>
+          <span>it will be open in May</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h1 class="contact__title">Let's Earm</h1>
+    <div class="contact__links">
+      <a href="https://discord.gg/dnSxbCYJHf" target="_blank">
+      <i class="fa-brands fa-discord"></i>
+      </a>  
+      <a href="https://twitter.com/SSURI_Winter" target="_blank">
+      <i class="fa-brands fa-twitter"></i>
+      </a>
+    </div>
+
+  </section>
+</body>
+</html>
